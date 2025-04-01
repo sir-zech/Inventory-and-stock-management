@@ -7,6 +7,11 @@ public class Inventory {
     private int quantity;
     private double price;
 
+    // ANSI escape codes for colors
+    private static final String RESET = "\033[0m";
+    private static final String BLUE = "\033[1;34m";
+    private static final String YELLOW = "\033[1;33m";
+
     // Constructors
     public Inventory() { }
 
@@ -28,19 +33,25 @@ public class Inventory {
     // Getters and Setters
     public int getId() { return id; }
     public String getProductName() { return productName; }
-    public String getCategory() { return category; } // Getter for category
+    public String getCategory() { return category; }
     public int getQuantity() { return quantity; }
     public double getPrice() { return price; }
 
     public void setId(int id) { this.id = id; }
     public void setProductName(String productName) { this.productName = productName; }
-    public void setCategory(String category) { this.category = category; } // Setter for category
+    public void setCategory(String category) { this.category = category; }
     public void setQuantity(int quantity) { this.quantity = quantity; }
     public void setPrice(double price) { this.price = price; }
 
     @Override
     public String toString() {
-        return "Inventory [id=" + id + ", productName=" + productName + ", category=" + category +
-                ", quantity=" + quantity + ", price=" + price + "]";
+        return BLUE +
+                "╔════════════════════════════════════════════════╗\n" +
+                "║ " + YELLOW + "ID:         " + BLUE + id + "\n" +
+                "║ " + YELLOW + "Product:    " + BLUE + productName + "\n" +
+                "║ " + YELLOW + "Category:   " + BLUE + category + "\n" +
+                "║ " + YELLOW + "Quantity:   " + BLUE + quantity + "\n" +
+                "║ " + YELLOW + "Price:      " + BLUE + "₹" + price + "\n" +
+                "╚════════════════════════════════════════════════╝" + RESET;
     }
 }
