@@ -138,3 +138,10 @@ For issues, open an issue on GitHub or contact the maintainer.
 
 📌 **Happy Coding! 🚀**
 
+
+### Team Members
+- [![Naveen B](https://img.shields.io/badge/GitHub-Naveen_B-blue?logo=github)](https://github.com/sir-zech)
+- [![Moulimonish S](https://img.shields.io/badge/GitHub-Moulimonish_S-blue?logo=github)](https://github.com/moulimonishxx)
+- [![Karthik G](https://img.shields.io/badge/GitHub-Karthik_G-blue?logo=github)](https://github.com/Karthikg2628)
+- [![Logu N](https://img.shields.io/badge/GitHub-Logu_N-blue?logo=github)](https://github.com/Loguneelakandan)
+
