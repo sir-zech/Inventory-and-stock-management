@@ -136,7 +136,7 @@ FLUSH PRIVILEGES;
 
 ## 📧 Support
 
-For issues, open an issue on GitHub or contact the maintainer.
+For issues, open an issue on GitHub or contact the via E-mail.
 
 ---
 
