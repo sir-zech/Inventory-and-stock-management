@@ -16,6 +16,10 @@ This is a simple **Inventory Management System** built using Java and MySQL. The
 - **JDBC** (Java Database Connectivity)
 - **IntelliJ IDEA (Community Edition)** (Recommended IDE)
 
+  ## 🎥 Project Demo  
+[![Watch Demo](https://img.shields.io/badge/🎬-Watch%20Demo-red?logo=youtube)](https://drive.google.com/file/d/1-Lw_UE4a02-QKSslnvWM93kmIyPzEduD/view?usp=drive_link)
+
+
 ## 📂 Project Setup
 
 ### 🔹 1. Clone the Repository
