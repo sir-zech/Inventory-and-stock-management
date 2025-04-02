@@ -25,7 +25,7 @@ This is a simple **Inventory Management System** built using Java and MySQL. The
 ### 🔹 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-repo/inventory-management.git
+git clone https://github.com/sir-zech/Inventory-and-stock-management.git
 cd inventory-management
 ```
 
